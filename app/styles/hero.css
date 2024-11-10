@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile-section {
+    padding: 6rem 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+  }
+  
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 2.5rem;
+  }
+  
+  .profile-content {
+    width: 100%;
+    max-width: 66.6667%; /* 2/3 width on medium screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .profile-heading {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-subheading {
+    font-size: 2.25rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-description {
+    color: #fff;
+    margin-bottom: 2rem;
+    line-height: 1.75;
+    font-size: 1rem;
+  }
+  
+  .contact-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .contact-btn {
+    background-color: #fbbf24;
+    color: #000;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact-btn:hover {
+    background-color: #9b4de1;
+    transform: scale(1.05);
+  }
+  
+  .contact-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.5); /* Orange glow on focus */
+  }
+  

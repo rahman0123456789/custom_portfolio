@@ -1,0 +1,129 @@
+/* General container for the contact section */
+.contact-container {
+    width: 100%;
+  }
+  
+  /* Section styling */
+  .contact-section {
+    position: relative;
+    background-color: #1f2937; /* Dark background */
+    padding: 56px 0;
+  }
+  
+  /* Container that holds the form and text */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Centered text */
+  .text-center {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 16px;
+  }
+  
+  /* Form container */
+  .form-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Wrapper for the form elements */
+  .form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  /* Individual form field container */
+  .form-item {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .form-item:nth-child(2),
+  .form-item:nth-child(3) {
+    width: 48%; /* For name and email input to sit side by side */
+  }
+  
+  /* Label styles */
+  .label {
+    display: block;
+    font-size: 0.875rem;
+    color: white;
+    margin-bottom: 8px;
+  }
+  
+  /* Input and Textarea Styles */
+  .input,
+  .textarea {
+    width: 100%;
+    background-color: rgba(169, 169, 169, 0.5); /* light gray with opacity */
+    border-radius: 8px;
+    border: 1px solid #d1d5db; /* light gray border */
+    padding: 8px 16px;
+    color: #4b5563; /* dark gray text */
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .input:focus,
+  .textarea:focus {
+    background-color: white;
+    border-color: #6366f1; /* Indigo border on focus */
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2); /* Indigo ring on focus */
+  }
+  
+  /* Textarea specific styles */
+  .textarea {
+    height: 150px;
+    resize: none;
+    padding-top: 12px;
+  }
+  
+  /* Submit Button Styles */
+  .submit-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #6b21a8; /* Purple background */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: auto;
+  }
+  
+  .submit-btn:hover {
+    background-color: #4c1d95; /* Darker purple on hover */
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 768px) {
+    .form-item:nth-child(2),
+    .form-item:nth-child(3) {
+      width: 48%; /* Make the name and email inputs sit side by side on medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .form-item:nth-child(2),
+    .form-item:nth-child(3) {
+      width: 100%; /* Stack inputs on smaller screens */
+    }
+  }
+  

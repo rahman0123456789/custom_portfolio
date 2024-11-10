@@ -1,0 +1,90 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: white;
+  }
+  
+  .about-container {
+    width: 100%;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Flexbox layout */
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  
+  .text-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .text-section h1.title {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #FB923C; /* Orange color */
+    border-bottom: 2px solid #FB923C;
+    margin-bottom: 16px;
+  }
+  
+  .text-section p.description {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: white;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .email {
+    color: #FBBF24; /* Light Orange */
+    border-bottom: 2px solid #FBBF24;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .cv-button {
+    padding: 12px 24px;
+    background-color: #8B5CF6; /* Purple color */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cv-button:hover {
+    background-color: #FACC15; /* Yellow on hover */
+  }
+  
+  /* Image section */
+  .image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-image {
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  
